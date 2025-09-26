@@ -1,0 +1,38 @@
+/* Estilos globales de la app */ 
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+.detail__body {
+  display: grid;
+  gap: 12px;
+}
+.count {
+  display: grid;
+  gap: 8px;
+}
+.count__controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #1f2937;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.count__controls button {
+  background: transparent;
+  color: #e5e7eb;
+  border: none;
+  font-size: 20px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.count__controls button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+.btn.primary {
+  background: #2563eb;
+}
